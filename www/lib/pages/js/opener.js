@@ -7,7 +7,7 @@ ks.tests.opener = (function()
 	
 	var properties = 
 	{
-		image: './pages/images/calendar.jpg',
+		image: './lib/pages/images/calendar.jpg',
 		height: 250,
 		width: 200,
 		openerXAngle: 5

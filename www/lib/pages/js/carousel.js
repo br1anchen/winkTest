@@ -25,11 +25,11 @@ ks.tests.carousel = (function()
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Text Content only</div><br/>See the next item</div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><div style="width: 90%; height: 80%; padding: 5%"><div style="border: 1px solid #fff; height: 100%; overflow: hidden"><p style="margin:0; padding: 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra placerat dapibus. Suspendisse ac justo ac turpis tempor porta sed a tellus. Proin quis enim lacus, a hendrerit erat. Aliquam tincidunt, magna id euismod hendrerit, nisi massa bibendum libero, non condimentum purus erat a arcu. Donec ipsum enim, malesuada sed eleifend in, sagittis quis nibh. Cras bibendum lacinia turpis, vitae varius augue sodales id. Nulla id fringilla erat.</p></div></div></div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Image only</div><br/>See the next item</div>'},
-		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><img src="./pages/images/ad.gif" /></div>'},
+		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><img src="./lib/pages/images/ad.gif" /></div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Clickable content</div><br/>See the next item</div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><div class="h2">Cick on the button below to change the item\'s color</div><br /><input type="button" value="change color" class="w_button w_radius w_bg_light" onclick="ks.tests.carousel.switchItemColor(this)" /></div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Dynamical content</div><br/>See the next item</div>'},
-		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><img id="dynamicalAd" src="./pages/images/ad_2.gif" /></div>'},
+		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><img id="dynamicalAd" src="./lib/pages/images/ad_2.gif" /></div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Animated content</div><br/>See the next item</div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" id="flippableItem" style="color: #fff; background-color:#000"><div class="h2">Cick on the button below to rotate the item</div><br /><input type="button" value="rotate" class="w_button w_radius w_bg_light" onclick="ks.tests.carousel.flip(this)" /></div>'}
 		]
@@ -51,7 +51,7 @@ ks.tests.carousel = (function()
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Text Content only</div><br/>See the next item</div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><div style="width: 90%; height: 80%; padding: 5%"><div style="border: 1px solid #fff; height: 100%; overflow: hidden"><p style="margin:0; padding: 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra placerat dapibus. Suspendisse ac justo ac turpis tempor porta sed a tellus. Proin quis enim lacus, a hendrerit erat. Aliquam tincidunt, magna id euismod hendrerit, nisi massa bibendum libero, non condimentum purus erat a arcu. Donec ipsum enim, malesuada sed eleifend in, sagittis quis nibh. Cras bibendum lacinia turpis, vitae varius augue sodales id. Nulla id fringilla erat.</p></div></div></div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Image only</div><br/>See the next item</div>'},
-		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><img src="./pages/images/ad.gif" /></div>'},
+		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><img src="./lib/pages/images/ad.gif" /></div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #0d6df3; background-color:#b9d4fa"><div class="h1">Clickable content</div><br/>See the next item</div>'},
 		 {'type': 'string', 'content': '<div class="test_carousel_item_1" style="color: #fff; background-color:#000"><div class="h2">Cick on the button below to change the item\'s color</div><br /><input type="button" value="change color" class="w_button w_radius w_bg_light" onclick="ks.tests.carousel.switchItemColor(this)" /></div>'}
 		]
@@ -132,11 +132,11 @@ ks.tests.carousel = (function()
 			{
 				if ( carousel.currentAd == 2 )
 				{
-					$('dynamicalAd').src = './pages/images/ad_3.gif';
+					$('dynamicalAd').src = './lib/pages/images/ad_3.gif';
 					carousel.currentAd = 3;
 				} else if ( carousel.currentAd == 3 )
 				{
-					$('dynamicalAd').src = './pages/images/ad_2.gif';
+					$('dynamicalAd').src = './lib/pages/images/ad_2.gif';
 					carousel.currentAd = 2;
 				}
 			}

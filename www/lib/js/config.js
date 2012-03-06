@@ -2,14 +2,14 @@
  * @author:
  * 	--> Jérôme GIRAUD
  */
-ks.winkPath = '../wink/';
+ks.winkPath = '../www/wink/';
 ks.config =
 {
 	ui:
 	[
 	 	{
 	 		title: 'Buttons', 
-	 		url:'./pages/html/buttons.html', 
+	 		url:'./lib/pages/html/buttons.html', 
 	 		resources: 
 	 		[
 	 		 	{ 
@@ -18,7 +18,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-	 		 		url: './pages/js/buttons.js', 
+	 		 		url: './lib/pages/js/buttons.js', 
 	 		 		type: 'js',
 	 		 		group: 0
 	 		 	},
@@ -28,7 +28,7 @@ ks.config =
 					group: 0
 				},
 	 		 	{ 
-	 		 		url: './pages/css/buttons.css', 
+	 		 		url: './lib/pages/css/buttons.css', 
 	 		 		type: 'css',
 	 		 		group: 0
 	 		 	}
@@ -36,37 +36,37 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Checkboxes', 
-	 		url: './pages/html/checkboxes.html', 
+	 		url: './lib/pages/html/checkboxes.html', 
 	 		resources: 
 	 		[
 	 		 	{
-	 		 		url: './pages/js/checkboxes.js', 
+	 		 		url: './lib/pages/js/checkboxes.js', 
 	 		 		type: 'js'
 	 		 	}, 
 	 		 	{ 
-	 		 		url: './pages/css/checkboxes.css', 
+	 		 		url: './lib/pages/css/checkboxes.css', 
 	 		 		type: 'css'
 	 		 	}
 	 		 ]
 	 	},
 	 	{
 	 		title: 'Radio buttons', 
-	 		url:'./pages/html/radios.html', 
+	 		url:'./lib/pages/html/radios.html', 
 	 		resources: 
 	 		[
 	 		 	{ 
-	 		 		url: './pages/js/radios.js', 
+	 		 		url: './lib/pages/js/radios.js', 
 	 		 		type: 'js'
 	 		 	}, 
 	 		 	{ 
-	 		 		url: './pages/css/radios.css', 
+	 		 		url: './lib/pages/css/radios.css', 
 	 		 		type: 'css'
 	 		 	}
 	 		 ]
 	 	},
 	 	{
 	 		title: 'Inputs', 
-	 		url:'./pages/html/inputs.html', 
+	 		url:'./lib/pages/html/inputs.html', 
 	 		resources: 
 	 		[
 	 		 	{ 
@@ -145,7 +145,7 @@ ks.config =
 	 		 		group: 14
 	 		 	},
 	 		 	{ 
-	 		 		url: './pages/js/inputs.js', 
+	 		 		url: './lib/pages/js/inputs.js', 
 	 		 		type: 'js', 
 	 		 		group: 15
 	 		 	}, 
@@ -160,7 +160,7 @@ ks.config =
 	 		 		group: 0
 	 		 	},
 	 		 	{ 
-	 		 		url: './pages/css/inputs.css', 
+	 		 		url: './lib/pages/css/inputs.css', 
 	 		 		type: 'css', 
 	 		 		group: 0
 	 		 	}
@@ -168,45 +168,45 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Forms', 
-	 		url:'./pages/html/forms.html', 
+	 		url:'./lib/pages/html/forms.html', 
 	 		resources: 
 	 		[
 	 		 	{ 
-	 		 		url: './pages/js/radios.js', 
+	 		 		url: './lib/pages/js/radios.js', 
 	 		 		type: 'js'
 	 		 	},
 	 		 	{
-	 		 		url: './pages/js/checkboxes.js', 
+	 		 		url: './lib/pages/js/checkboxes.js', 
 	 		 		type: 'js'
 	 		 	},
 	 		 	{
-	 		 		url: './pages/js/forms.js', 
+	 		 		url: './lib/pages/js/forms.js', 
 	 		 		type: 'js'
 	 		 	},
 	 		 	{ 
-	 		 		url: './pages/css/forms.css', 
+	 		 		url: './lib/pages/css/forms.css', 
 	 		 		type: 'css'
 	 		 	}
 	 		 ]
 	 	},
 	 	{
 	 		title: 'Toolbars', 
-	 		url:'./pages/html/toolbars.html',
+	 		url:'./lib/pages/html/toolbars.html',
 	 		resources: 
 	 		[
 				{ 
-					url: './pages/js/toolbars.js', 
+					url: './lib/pages/js/toolbars.js', 
 					type: 'js'
 				},
 	 		 	{ 
-	 		 		url: './pages/css/toolbars.css', 
+	 		 		url: './lib/pages/css/toolbars.css', 
 	 		 		type: 'css'
 	 		 	}
 	 		 ]
 	 	},
 	 	{
 	 		title: 'Accordions', 
-	 		url:'./pages/html/accordion.html',
+	 		url:'./lib/pages/html/accordion.html',
 	 		resources: 
 	 		[
 				{ 
@@ -215,7 +215,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/accordion.js', 
+					url: './lib/pages/js/accordion.js', 
 					type: 'js',
 					group: 1
 				},
@@ -225,7 +225,7 @@ ks.config =
 	 		 		group: 0
 	 		 	},
 	 		 	{ 
-	 		 		url: './pages/css/accordion.css', 
+	 		 		url: './lib/pages/css/accordion.css', 
 	 		 		type: 'css',
 	 		 		group: 0
 	 		 	}
@@ -234,7 +234,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Carousels', 
-	 		url:'./pages/html/carousel.html',
+	 		url:'./lib/pages/html/carousel.html',
 	 		resources: 
 	 		[
 				{ 
@@ -253,17 +253,17 @@ ks.config =
 					group: 1
 				},
 				{ 
-					url: './pages/js/carousel.js', 
+					url: './lib/pages/js/carousel.js', 
 					type: 'js',
 					group: 2
 				},
 				{ 
-	 		 		url: './pages/js/radios.js', 
+	 		 		url: './lib/pages/js/radios.js', 
 	 		 		type: 'js',
 	 		 		group: 2
 	 		 	}, 
 	 		 	{ 
-	 		 		url: './pages/css/radios.css', 
+	 		 		url: './lib/pages/css/radios.css', 
 	 		 		type: 'css',
 	 		 		group: 0
 	 		 	},
@@ -273,7 +273,7 @@ ks.config =
 	 		 		group: 0
 	 		 	},
 	 		 	{ 
-	 		 		url: './pages/css/carousel.css', 
+	 		 		url: './lib/pages/css/carousel.css', 
 	 		 		type: 'css',
 	 		 		group: 0
 	 		 	}
@@ -282,7 +282,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Tabs', 
-	 		url:'./pages/html/tabs.html',
+	 		url:'./lib/pages/html/tabs.html',
 	 		resources: 
 	 		[
 				{ 
@@ -291,7 +291,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/tabs.js', 
+					url: './lib/pages/js/tabs.js', 
 					type: 'js',
 					group: 1
 				},
@@ -301,7 +301,7 @@ ks.config =
 	 		 		group: 0
 	 		 	},
 	 		 	{ 
-	 		 		url: './pages/css/tabs.css', 
+	 		 		url: './lib/pages/css/tabs.css', 
 	 		 		type: 'css',
 	 		 		group: 0
 	 		 	}
@@ -309,18 +309,18 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Maps', 
-	 		url:'./pages/html/maps.html',
+	 		url:'./lib/pages/html/maps.html',
 	 		resources: 
 	 		[
 				{ 
-					url: './pages/js/maps.js', 
+					url: './lib/pages/js/maps.js', 
 					type: 'js'
 				}
 	 		 ]
 	 	},
 	 	{
 	 		title: 'Pickers', 
-	 		url:'./pages/html/pickers.html',
+	 		url:'./lib/pages/html/pickers.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -339,7 +339,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/pickers.js', 
+					url: './lib/pages/js/pickers.js', 
 					type: 'js',
 					group: 2
 				},
@@ -357,7 +357,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Menus &amp; Popups', 
-	 		url:'./pages/html/menus.html',
+	 		url:'./lib/pages/html/menus.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -376,7 +376,7 @@ ks.config =
 					group: 1
 				},
 				{ 
-					url: './pages/js/menus.js', 
+					url: './lib/pages/js/menus.js', 
 					type: 'js',
 					group: 2
 				},
@@ -391,7 +391,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/menus.css', 
+					url: './lib/pages/css/menus.css', 
 					type: 'css',
 					group: 0
 				}
@@ -399,7 +399,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Notifications', 
-	 		url:'./pages/html/notifications.html',
+	 		url:'./lib/pages/html/notifications.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -408,12 +408,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/toolbars.js', 
+					url: './lib/pages/js/toolbars.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/js/notifications.js', 
+					url: './lib/pages/js/notifications.js', 
 					type: 'js',
 					group: 1
 				},
@@ -423,12 +423,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/toolbars.css', 
+					url: './lib/pages/css/toolbars.css', 
 					type: 'css',
 					group: 0
 				},
 				{ 
-					url: './pages/css/notifications.css', 
+					url: './lib/pages/css/notifications.css', 
 					type: 'css',
 					group: 0
 				}
@@ -436,7 +436,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Indicators', 
-	 		url:'./pages/html/indicators.html',
+	 		url:'./lib/pages/html/indicators.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -450,7 +450,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/indicators.js', 
+					url: './lib/pages/js/indicators.js', 
 					type: 'js',
 					group: 1
 				},
@@ -460,7 +460,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/indicators.css', 
+					url: './lib/pages/css/indicators.css', 
 					type: 'css',
 					group: 0
 				}
@@ -471,7 +471,7 @@ ks.config =
 	[
 	 	{
 	 		title: 'Slide', 
-	 		url:'./pages/html/slide.html',
+	 		url:'./lib/pages/html/slide.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -480,7 +480,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/slide.js', 
+					url: './lib/pages/js/slide.js', 
 					type: 'js',
 					group: 1
 				},
@@ -490,7 +490,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/slide.css', 
+					url: './lib/pages/css/slide.css', 
 					type: 'css',
 					group: 0
 				}
@@ -498,7 +498,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Slide (cover)', 
-	 		url:'./pages/html/slide.html',
+	 		url:'./lib/pages/html/slide.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -507,7 +507,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/slide.js', 
+					url: './lib/pages/js/slide.js', 
 					type: 'js',
 					group: 1
 				},
@@ -517,7 +517,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/slide.css', 
+					url: './lib/pages/css/slide.css', 
 					type: 'css',
 					group: 0
 				}
@@ -525,7 +525,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Slide (reveal)', 
-	 		url:'./pages/html/slide.html',
+	 		url:'./lib/pages/html/slide.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -534,7 +534,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/slide.js', 
+					url: './lib/pages/js/slide.js', 
 					type: 'js',
 					group: 1
 				},
@@ -544,7 +544,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/slide.css', 
+					url: './lib/pages/css/slide.css', 
 					type: 'css',
 					group: 0
 				}
@@ -552,7 +552,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Fade', 
-	 		url:'./pages/html/fade.html',
+	 		url:'./lib/pages/html/fade.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -576,12 +576,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/fade.js', 
+					url: './lib/pages/js/fade.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/fade.css', 
+					url: './lib/pages/css/fade.css', 
 					type: 'css',
 					group: 0
 				}
@@ -589,7 +589,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Cube', 
-	 		url:'./pages/html/cube.html',
+	 		url:'./lib/pages/html/cube.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -618,12 +618,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/cube.js', 
+					url: './lib/pages/js/cube.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/cube.css', 
+					url: './lib/pages/css/cube.css', 
 					type: 'css',
 					group: 0
 				}
@@ -631,7 +631,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Tag Cloud', 
-	 		url:'./pages/html/tagcloud.html',
+	 		url:'./lib/pages/html/tagcloud.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -660,12 +660,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/tagcloud.js', 
+					url: './lib/pages/js/tagcloud.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/tagcloud.css', 
+					url: './lib/pages/css/tagcloud.css', 
 					type: 'css',
 					group: 0
 				}
@@ -673,7 +673,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Opener', 
-	 		url:'./pages/html/opener.html',
+	 		url:'./lib/pages/html/opener.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -697,7 +697,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/opener.js', 
+					url: './lib/pages/js/opener.js', 
 					type: 'js',
 					group: 1
 				},
@@ -707,7 +707,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/css/opener.css', 
+					url: './lib/pages/css/opener.css', 
 					type: 'css',
 					group: 0
 				}
@@ -715,7 +715,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: '3D Animations', 
-	 		url:'./pages/html/animations.html',
+	 		url:'./lib/pages/html/animations.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -739,12 +739,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/animations.js', 
+					url: './lib/pages/js/animations.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/animations.css', 
+					url: './lib/pages/css/animations.css', 
 					type: 'css',
 					group: 0
 				}
@@ -752,7 +752,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Slideshow', 
-	 		url:'./pages/html/slideshow.html',
+	 		url:'./lib/pages/html/slideshow.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -766,12 +766,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/slideshow.js', 
+					url: './lib/pages/js/slideshow.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/slideshow.css', 
+					url: './lib/pages/css/slideshow.css', 
 					type: 'css',
 					group: 0
 				}
@@ -782,7 +782,7 @@ ks.config =
 	[
 	 	{
 	 		title: 'Drag &amp; drop', 
-	 		url:'./pages/html/dnd.html',
+	 		url:'./lib/pages/html/dnd.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -791,12 +791,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/dnd.js', 
+					url: './lib/pages/js/dnd.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/dnd.css', 
+					url: './lib/pages/css/dnd.css', 
 					type: 'css',
 					group: 0
 				}
@@ -804,7 +804,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Multitouch', 
-	 		url:'./pages/html/multitouch.html',
+	 		url:'./lib/pages/html/multitouch.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -813,12 +813,12 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/multitouch.js', 
+					url: './lib/pages/js/multitouch.js', 
 					type: 'js',
 					group: 1
 				},
 				{ 
-					url: './pages/css/multitouch.css', 
+					url: './lib/pages/css/multitouch.css', 
 					type: 'css',
 					group: 0
 				}
@@ -826,7 +826,7 @@ ks.config =
 	 	},
 		{
 	 		title: 'Gesture recognition', 
-	 		url:'./pages/html/recognition.html',
+	 		url:'./lib/pages/html/recognition.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -835,7 +835,7 @@ ks.config =
 					group: 0
 				},
 				{ 
-					url: './pages/js/recognition.js', 
+					url: './lib/pages/js/recognition.js', 
 					type: 'js',
 					group: 1
 				}
@@ -843,7 +843,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Visual feedback', 
-	 		url:'./pages/html/feedback.html',
+	 		url:'./lib/pages/html/feedback.html',
 	 		resources: []
 	 	},
 	],
@@ -851,7 +851,7 @@ ks.config =
 	[
 	 	{
 	 		title: 'Audio player', 
-	 		url:'./pages/html/audio.html',
+	 		url:'./lib/pages/html/audio.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -880,12 +880,12 @@ ks.config =
 					group: 1
 				},
 				{ 
-					url: './pages/js/audio.js', 
+					url: './lib/pages/js/audio.js', 
 					type: 'js',
 					group: 2
 				},
 				{ 
-					url: './pages/css/audio.css', 
+					url: './lib/pages/css/audio.css', 
 					type: 'css',
 					group: 0
 				},
@@ -903,7 +903,7 @@ ks.config =
 	 	},
 	 	{
 	 		title: 'Video player', 
-	 		url:'./pages/html/video.html',
+	 		url:'./lib/pages/html/video.html',
 	 		resources: 
 	 		[
 		 		{ 
@@ -927,12 +927,12 @@ ks.config =
 					group: 1
 				},
 				{ 
-					url: './pages/js/video.js', 
+					url: './lib/pages/js/video.js', 
 					type: 'js',
 					group: 2
 				},
 				{ 
-					url: './pages/css/video.css', 
+					url: './lib/pages/css/video.css', 
 					type: 'css',
 					group: 0
 				},

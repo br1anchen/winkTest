@@ -47,12 +47,12 @@
 
 #test_buttons .w_toggle_custom
 {
-	background:transparent url(../images/toggle_1.png) no-repeat center;
+	background:transparent url(./lib/pages/images/toggle_1.png) no-repeat center;
 }
 
 #test_buttons .w_toggle_custom_2
 {
-	background:transparent url(../images/toggle_2.png) no-repeat center;
+	background:transparent url(./lib/pages/images/toggle_2.png) no-repeat center;
 	border: 2px solid #F8188F;
 	
 	border-radius: 5px;

@@ -13,42 +13,42 @@ ks.tests.slideshow = (function()
 		items: 
 		[
 		 	{ 
-		 		image: './pages/images/sintel_0.jpg', 
+		 		image: './lib/pages/images/sintel_0.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_1.jpg', 
+		 		image: './lib/pages/images/sintel_1.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_2.jpg', 
+		 		image: './lib/pages/images/sintel_2.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_3.jpg', 
+		 		image: './lib/pages/images/sintel_3.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_4.jpg', 
+		 		image: './lib/pages/images/sintel_4.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_5.jpg', 
+		 		image: './lib/pages/images/sintel_5.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_6.jpg', 
+		 		image: './lib/pages/images/sintel_6.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	},
 		 	{ 
-		 		image: './pages/images/sintel_7.jpg', 
+		 		image: './lib/pages/images/sintel_7.jpg', 
 		 		title: '', 
 		 		info: ''
 		 	}

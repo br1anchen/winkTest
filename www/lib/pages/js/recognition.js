@@ -98,16 +98,16 @@ ks.tests.recognition = (function()
 		{
 			if ( params.result > i )
 			{
-				$('test_recognition_like_' + i).src = './pages/images/like2.png';
+				$('test_recognition_like_' + i).src = './lib/pages/images/like2.png';
 			} else
 			{
-				$('test_recognition_like_' + i).src = './pages/images/like1.png';
+				$('test_recognition_like_' + i).src = './lib/pages/images/like1.png';
 			}
 		}
 		
 		if ( params.result == 0 )
 		{
-			$('test_recognition_like_0').src = './pages/images/like1.png';
+			$('test_recognition_like_0').src = './lib/pages/images/like1.png';
 		}
 	};
 	
